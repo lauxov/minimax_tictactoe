@@ -28,7 +28,7 @@ Make sure you have the following installed:
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/your-username/tic-tac-toe.git
+git clone https://github.com/lauxov/minimax_tictactoe.git
 ```
 2. Change to the project directory:
 
