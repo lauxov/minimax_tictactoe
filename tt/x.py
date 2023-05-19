@@ -34,6 +34,10 @@ class TicTacToe:
                                          relief=tk.RAISED, bd=4, bg="black", fg="white")
         self.new_game_button.grid(row=3, column=1, pady=10)
 
+        self.restart_button = tk.Button(self.root, text="Restart Game", font=("Arial", 14), width=12, command=self.restart_game,
+                                         relief=tk.RAISED, bd=4, bg="black", fg="white")
+        self.restart_button.grid(row=3, column=2, pady=10)
+
     def button_click(self, row, col):
         if self.board[row][col] == EMPTY:
             self.board[row][col] = self.current_player
@@ -97,6 +101,10 @@ class TicTacToe:
     def new_game(self):
         self.enable_buttons()
         self.clear_board()
+
+    def restart_game(self):
+        self.new_game()
+        self.current_player = PLAYER_X
 
     def make_bot_move(self):
         best_score = float("-inf")
@@ -170,7 +178,6 @@ class TicTacToe:
 
     def run(self):
         self.root.mainloop()
-
 
 if __name__ == "__main__":
     game = TicTacToe()
