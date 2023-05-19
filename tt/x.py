@@ -107,6 +107,19 @@ class TicTacToe:
         self.current_player = PLAYER_X
 
     def make_bot_move(self):
+
+        for i in range(3):
+            for j in range(3):
+                if self.board[i][j] == EMPTY:
+                    self.board[i][j] = PLAYER_O
+                    if self.check_winner():
+                        self.buttons[i][j].config(text=PLAYER_O, state=tk.DISABLED)
+                        messagebox.showinfo("Game Over", f"Player {PLAYER_O} wins!")
+                        self.disable_buttons()
+                        self.play_sound("winsound.wav")
+                        return
+                    self.board[i][j] = EMPTY
+
         best_score = float("-inf")
         best_move = None
 
