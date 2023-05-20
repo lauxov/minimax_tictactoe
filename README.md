@@ -1,6 +1,6 @@
 # Tic-Tac-Toe Game
 
-![Tic-Tac-Toe](https://github.com/lauxov/minimax_tictactoe/assets/110423050/9c03987b-863e-4e49-85ed-992d363148ce) ![MiniMax2](https://upload.wikimedia.org/wikipedia/commons/e/e1/Plminmax.gif)
+![image](https://github.com/lauxov/minimax_tictactoe/assets/110423050/8c0ecbaf-6117-43ca-9d14-adfb518dd979)![MiniMax2](https://upload.wikimedia.org/wikipedia/commons/e/e1/Plminmax.gif)
 
 
 This is a simple implementation of the Tic-Tac-Toe game using Python and Tkinter. The game allows you to play against a computer bot with the minimax algorithm.
