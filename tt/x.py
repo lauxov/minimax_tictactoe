@@ -2,6 +2,7 @@ import tkinter as tk
 import winsound
 import tkinter.messagebox as messagebox
 
+#ja
 PLAYER_X = "X"
 PLAYER_O = "O"
 EMPTY = ""
