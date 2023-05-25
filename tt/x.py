@@ -5,7 +5,7 @@ import tkinter.messagebox as messagebox
 PLAYER_X = "X"
 PLAYER_O = "O"
 EMPTY = ""
-
+#
 class TicTacToe:
     def __init__(self):
         self.current_player = PLAYER_X
