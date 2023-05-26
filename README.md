@@ -1,4 +1,4 @@
-# Tic-Tac-Toe Game
+# Tic-Tac-Toe Game Minimax
 
 ![image](https://github.com/lauxov/minimax_tictactoe/assets/110423050/8c0ecbaf-6117-43ca-9d14-adfb518dd979)![MiniMax2](https://upload.wikimedia.org/wikipedia/commons/e/e1/Plminmax.gif)
 
