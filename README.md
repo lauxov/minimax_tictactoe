@@ -7,7 +7,7 @@ This is a simple implementation of the Tic-Tac-Toe game using Python and Tkinter
 
 ## Features
 
-- Play against the computer bot
+- Play against the bot
 - Switch sides with the bot (X or O)
 - Sound effects for each move
 - Option to start a new game
